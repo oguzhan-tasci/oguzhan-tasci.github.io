@@ -233,13 +233,14 @@ a.main-button-slider {
 
 a.main-button-slider:hover {
   background-color: #0088e8;
+  transition: all .9s;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #00b4c6;
+  background-color: #f55858;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -319,6 +320,9 @@ header
 
 .background-header .nav li a.active {
   color: #f55858 !important;
+}
+.fans-img {
+  max-width: 500px;
 }
 
 .header-area {
@@ -741,7 +745,7 @@ TRY IT ... with or without CENTER CENTER
 
 .welcome-area .header-text {
   position: absolute;
-  top: 55%;
+  top: 65%;
   transform: translateY(-60%);
   text-align: left;
   width: 100%;
@@ -959,7 +963,7 @@ services
 .service-item {
   cursor: pointer;
   display: block;
-  background: #ffffff;
+  background: #fff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
   text-align: center;
@@ -993,7 +997,7 @@ services
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #00b4c6;
+  background: rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
